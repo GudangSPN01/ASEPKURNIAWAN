@@ -1,0 +1,85 @@
+// Import library Chart.js
+import Chart from 'chart.js/auto';
+
+// Get canvas element
+const canvas = document.getElementById('chart');
+
+// Define data
+const data = {
+  labels: ['Feb-23', 'Mar-23'], // Label bulan
+  datasets: [
+    {
+      label: 'B2B BANDUNG SHOWROOM BANDUNG', // Subarea
+      data: [149, 144], // Jumlah booking
+      backgroundColor: 'rgba(255, 99, 132, 0.2)', // Warna background
+      borderColor: 'rgba(255, 99, 132, 1)', // Warna border
+      borderWidth: 1, // Lebar border
+    },
+    {
+      label: 'B2B BANDUNG SHOWROOM JAKARTA',
+      data: [15, 5],
+      backgroundColor: 'rgba(54, 162, 235, 0.2)',
+      borderColor: 'rgba(54, 162, 235, 1)',
+      borderWidth: 1,
+    },
+    {
+      label: 'DEALER',
+      data: [1, 3],
+      backgroundColor: 'rgba(255, 206, 86, 0.2)',
+      borderColor: 'rgba(255, 206, 86, 1)',
+      borderWidth: 1,
+    },
+    {
+      label: 'DISTRIBUTOR',
+      data: [139, 133],
+      backgroundColor: 'rgba(75, 192, 192, 0.2)',
+      borderColor: 'rgba(75, 192, 192, 1)',
+      borderWidth: 1,
+    },
+    {
+      label: 'HEAD OFFICE',
+      data: [47, 51],
+      backgroundColor: 'rgba(153, 102, 255, 0.2)',
+      borderColor: 'rgba(153, 102, 255, 1)',
+      borderWidth: 1,
+    },
+    {
+      label: 'MARKETPLACE',
+      data: [290, 229],
+      backgroundColor: 'rgba(255, 159, 64, 0.2)',
+      borderColor: 'rgba(255, 159, 64, 1)',
+      borderWidth: 1,
+    },
+    {
+      label: 'RESELLER',
+      data: [25, 36],
+      backgroundColor: 'rgba(54, 162, 235, 0.2)',
+      borderColor: 'rgba(54, 162, 235, 1)',
+      borderWidth: 1,
+    },
+    {
+      label: 'SALES INTERNAL DKI',
+      data: [213, 229],
+      backgroundColor: 'rgba(255, 99, 132, 0.2)',
+      borderColor: 'rgba(255, 99, 132, 1)',
+      borderWidth: 1,
+    },
+    {
+      label: 'SALES INTERNAL JABAR',
+      data: [493, 416],
+      backgroundColor: 'rgba(75, 192, 192, 0.2)',
+      borderColor: 'rgba(75, 192, 192, 1)',
+      borderWidth: 1,
+    },
+    {
+      label: 'SALES INTERNAL JATENG',
+      data: [259, 214],
+      backgroundColor: 'rgba(153, 102, 255, 0.2)',
+      borderColor: 'rgba(153, 102, 255, 1)',
+      borderWidth: 1,
+    },
+  ],
+};
+
+// Define options
+const
